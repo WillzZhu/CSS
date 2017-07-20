@@ -1,7 +1,9 @@
 Application of LDA on Brown Corpus
 ========
 In recent years, Data Mining is a very active research area, not just in the domain of Computer Science. In social science, researchers are trying taking a data-driven approach on traditional problems. (i.e. topic model for data discovery and empirical validation).
+
 Latent Dirichlet Allocation (LDA) is an unsupervised algorithm which can allocate a topic distribution on documents in a fixed collection. Some researchers adapts this topic model to measure an external variable of interest and gains worth-noting achievements. However, this method must be carefully validated.
+
 Here, we apply LDA using Gibbs sampling on Brown Corpus, which has been categorized, and compare the labelled categories and generated topics.
 
 
