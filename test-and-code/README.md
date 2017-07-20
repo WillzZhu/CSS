@@ -51,4 +51,5 @@ Topic 8: wa hi church said new state john law
 Topic 9: state year thi cost 000 ani unit busi
 ```
 The algorithm discovers the information relating to government, hobbies (cook), and humor (musical). See Topic 6-9.
-However, the algorithm is distracted by some verbs so that the top words for fictions are not very meaningful.
+
+However, the algorithm is distracted by some verbs. The top words corresponding to some categories (fiction, lore, etc) are not very meaningful.
