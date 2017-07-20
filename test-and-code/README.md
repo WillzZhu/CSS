@@ -30,11 +30,6 @@ lm.topic_kw()																																			#show top-8 words of all topics
 teston(lm.location['government'][0], lm.location['government'][1], 'government')	#show results for 'government' passages					
 ```
 
-
-To-do
----
-* __word removal__ - In the test, we use Porter Stemmer which results in a 28085-size vocabulary (raw text has a size of 42090). However, further feature selection is in need, i.e. removal of some verbs
-
 Result (stemmed)
 ---
 
@@ -50,6 +45,13 @@ Topic 7: mrs year ha music play wa new hi
 Topic 8: wa hi church said new state john law
 Topic 9: state year thi cost 000 ani unit busi
 ```
+15 Categories: adventure, belles_lettres, editorial, fiction, government, hobbies, humor, learned, lore, mystery, news, religion, reviews, romance, science_fiction
+
 The algorithm discovers the information relating to government, hobbies (cook), and humor (musical). See Topic 6-9.
 
 However, the algorithm is distracted by some verbs. The top words corresponding to some categories (fiction, lore, etc) are not very meaningful.
+
+
+To-do
+---
+* __word removal__ - In the test, we use Porter Stemmer which results in a 28085-size vocabulary (raw text has a size of 42090). However, further feature selection is in need, i.e. removal of some verbs
