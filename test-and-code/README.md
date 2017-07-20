@@ -24,10 +24,10 @@ Usage
 
 ```python
 from lda_topic.topic import *
-lm = LDA_model(brown, True)																												#True: use Porter Stemmer (default)
-lm.train(num_topic=15, num_iter=1000)																							#Brown corpus has 15 categories
-lm.topic_kw()																																			#show top-8 words of all topics
-teston(lm.location['government'][0], lm.location['government'][1], 'government')	#show results for 'government' passages					
+lm = LDA_model(brown, True) #True: use Porter Stemmer (default)
+lm.train(num_topic=15, num_iter=1000) #Brown corpus has 15 categories
+lm.topic_kw() #show top-8 words of all topics
+teston(lm.location['government'][0], lm.location['government'][1], 'government')  #show results for 'government' passages					
 ```
 
 Result (stemmed)
